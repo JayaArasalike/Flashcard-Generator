@@ -1,0 +1,22 @@
+{
+  "name": "flashcard",
+  "version": "1.0.0",
+  "description": "cards have front and back with questions and answers",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JayaArasalike/Flashcard-Generator.git"
+  },
+  "author": "jaya",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JayaArasalike/Flashcard-Generator/issues"
+  },
+  "homepage": "https://github.com/JayaArasalike/Flashcard-Generator#readme",
+  "dependencies": {
+    "inquirer": "^3.1.1"
+  }
+}
