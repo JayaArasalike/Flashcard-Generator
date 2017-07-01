@@ -7,9 +7,8 @@ function ClozeCard(text, cloze) {
 ClozeCard.prototype.getPartialText = function() {
 	
 		if(this.fullText.indexOf(this.cloze) === -1) {
-			//return console.log(this.cloze + " does not exist in the sentence");
+			
 			return (this.cloze + " does not exist in the sentence");
-
 		}
 
 		else {

@@ -32,7 +32,7 @@ function getBasicCard() {
 	console.log(firstPresident.front); 
 
 	// "George Washington"
-	setTimeout(function print() {console.log(firstPresident.back)},"3000"); 
+	setTimeout(function print() {console.log(firstPresident.back)},"1000"); 
 	//clearInterval(setId);
 
 }
@@ -56,16 +56,10 @@ function getClozeCard(constructorObject) {
 	console.log(constructorObject.getPartialText()); 
 
 	// "George Washington"
-	//console.log(firstPresidentCloze.cloze); 
-	//setTimeout(function print() {console.log(constructorObject.cloze)}, "1000");
 	console.log(constructorObject.cloze);
 
 	// "George Washington was the first president of the United States.
-	//setTimeout(function print() {console.log(constructorObject.fullText)}, "1200");
 	console.log(constructorObject.fullText);
 	console.log("===================================");
-
-	// Should throw or log an error because "oops" doesn't appear in "This doesn't work"
-	//var brokenCloze = new ClozeCard("This doesn't work", "oops");
 
 }
